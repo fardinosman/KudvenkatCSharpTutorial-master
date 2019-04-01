@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "61_Asp_WebApplication_Paria
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "62_Creating_Partial_Classes", "62_Creating_Partial_Classes\62_Creating_Partial_Classes.csproj", "{4740D9F0-8FFF-4FF1-9356-F3367CFE000D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "63_Partial_Methods", "63_Partial_Methods\63_Partial_Methods.csproj", "{7733C7BB-7078-4137-BA81-B6F0CC3E8FB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +383,10 @@ Global
 		{4740D9F0-8FFF-4FF1-9356-F3367CFE000D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4740D9F0-8FFF-4FF1-9356-F3367CFE000D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4740D9F0-8FFF-4FF1-9356-F3367CFE000D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7733C7BB-7078-4137-BA81-B6F0CC3E8FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7733C7BB-7078-4137-BA81-B6F0CC3E8FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7733C7BB-7078-4137-BA81-B6F0CC3E8FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7733C7BB-7078-4137-BA81-B6F0CC3E8FB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
