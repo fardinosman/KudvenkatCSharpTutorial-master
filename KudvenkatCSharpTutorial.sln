@@ -125,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "60_Difference_Between_Strin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "61_Asp_WebApplication_Parial_Classes", "61_Asp_WebApplication_Parial_Classes\61_Asp_WebApplication_Parial_Classes.csproj", "{17C97E9D-0C3D-4DD9-8FBA-1D8ADE9A5A18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "62_Creating_Partial_Classes", "62_Creating_Partial_Classes\62_Creating_Partial_Classes.csproj", "{4740D9F0-8FFF-4FF1-9356-F3367CFE000D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -375,6 +377,10 @@ Global
 		{17C97E9D-0C3D-4DD9-8FBA-1D8ADE9A5A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17C97E9D-0C3D-4DD9-8FBA-1D8ADE9A5A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17C97E9D-0C3D-4DD9-8FBA-1D8ADE9A5A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4740D9F0-8FFF-4FF1-9356-F3367CFE000D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4740D9F0-8FFF-4FF1-9356-F3367CFE000D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4740D9F0-8FFF-4FF1-9356-F3367CFE000D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4740D9F0-8FFF-4FF1-9356-F3367CFE000D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
