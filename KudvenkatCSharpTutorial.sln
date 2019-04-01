@@ -121,6 +121,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "58_Why_Should_Override_Equa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59_Difference_Between_Convert.ToString()_And_ToString()", "59_Difference_Between_Convert.ToString()_And_ToString()\59_Difference_Between_Convert.ToString()_And_ToString().csproj", "{2ACD6207-CDBE-483D-BFAD-86D745F88904}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "60_Difference_Between_String_StringBuilder", "60_Difference_Between_String_StringBuilder\60_Difference_Between_String_StringBuilder.csproj", "{992792FC-3EB0-41AB-89A0-18D5CEF15ECE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,10 @@ Global
 		{2ACD6207-CDBE-483D-BFAD-86D745F88904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ACD6207-CDBE-483D-BFAD-86D745F88904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ACD6207-CDBE-483D-BFAD-86D745F88904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{992792FC-3EB0-41AB-89A0-18D5CEF15ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992792FC-3EB0-41AB-89A0-18D5CEF15ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992792FC-3EB0-41AB-89A0-18D5CEF15ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992792FC-3EB0-41AB-89A0-18D5CEF15ECE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
