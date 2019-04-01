@@ -129,6 +129,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "62_Creating_Partial_Classes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "63_Partial_Methods", "63_Partial_Methods\63_Partial_Methods.csproj", "{7733C7BB-7078-4137-BA81-B6F0CC3E8FB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "64_Asp_How_where_indexers_used", "64_Asp_How_where_indexers_used\64_Asp_How_where_indexers_used.csproj", "{E253F666-F34D-47BB-A527-6941280422D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -387,6 +389,10 @@ Global
 		{7733C7BB-7078-4137-BA81-B6F0CC3E8FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7733C7BB-7078-4137-BA81-B6F0CC3E8FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7733C7BB-7078-4137-BA81-B6F0CC3E8FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E253F666-F34D-47BB-A527-6941280422D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E253F666-F34D-47BB-A527-6941280422D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E253F666-F34D-47BB-A527-6941280422D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E253F666-F34D-47BB-A527-6941280422D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
