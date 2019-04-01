@@ -14,6 +14,14 @@ namespace _68_MethoParam_optional_Using_MdOverloading
             AddNumber(5, 5, 34, 54, 34, 54, 23, 354, 234567, 8);
             AddNumber(3, 43, 56, 789, 44, 22, 55, 7);
             AddNumber(2, 4);
+            Test(2, c: 40, b: 50);
+        }
+
+        public static void Test(int a, int b = 20, int c = 2)
+        {
+            Console.WriteLine("a = "+a);
+            Console.WriteLine("b = " + b);
+            Console.WriteLine("c = " + c);
         }
 
         //by using params array we make it optional and it have to be th last paramter in a method
