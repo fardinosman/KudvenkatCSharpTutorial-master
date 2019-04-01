@@ -35,6 +35,24 @@ namespace _65_Indexer_In_C_Sharp
             Response.Write("Name of Empolyee with Id = 3 " + company[3]);
             Response.Write("<br/>");
 
+            Response.Write("<br/>");
+
+            Response.Write("Befor Update");
+            Response.Write("<br/>");
+            Response.Write("Total Male Employees = " + company["Male"]);
+            Response.Write("<br/>");
+            Response.Write("Total Female Employees = " + company["Female"]);
+          
+
+            Response.Write("<br/>");
+            Response.Write("<br/>");
+
+            company["Male"] = "Female";
+            Response.Write("After Update");
+            Response.Write("<br/>");
+            Response.Write("Total Male Employees = " + company["Male"]);
+            Response.Write("<br/>");
+            Response.Write("Total Female Employees = " + company["Female"]);
 
         }
     }

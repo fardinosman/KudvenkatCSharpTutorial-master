@@ -133,6 +133,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "64_Asp_How_where_indexers_u
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "65_Indexer_In_C_Sharp", "65_Indexer_In_C_Sharp\65_Indexer_In_C_Sharp.csproj", "{8573FDE0-30E6-4687-B36A-9E55815D50C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "66_", "66_\66_.csproj", "{850FA282-53BD-4EDE-8EFB-246915C3429F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -399,6 +401,10 @@ Global
 		{8573FDE0-30E6-4687-B36A-9E55815D50C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8573FDE0-30E6-4687-B36A-9E55815D50C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8573FDE0-30E6-4687-B36A-9E55815D50C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850FA282-53BD-4EDE-8EFB-246915C3429F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850FA282-53BD-4EDE-8EFB-246915C3429F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850FA282-53BD-4EDE-8EFB-246915C3429F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850FA282-53BD-4EDE-8EFB-246915C3429F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
