@@ -149,6 +149,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "72_Dictionar", "72_Dictiona
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "74_List_collection_Class", "74_List_collection_Class\74_List_collection_Class.csproj", "{54CDB0E5-580B-4DDB-A8F5-879A440B390B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "75_List_Collection", "75_List_Collection\75_List_Collection.csproj", "{6A947409-0299-4D51-BA62-85DF564F87C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -447,6 +449,10 @@ Global
 		{54CDB0E5-580B-4DDB-A8F5-879A440B390B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54CDB0E5-580B-4DDB-A8F5-879A440B390B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54CDB0E5-580B-4DDB-A8F5-879A440B390B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A947409-0299-4D51-BA62-85DF564F87C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A947409-0299-4D51-BA62-85DF564F87C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A947409-0299-4D51-BA62-85DF564F87C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A947409-0299-4D51-BA62-85DF564F87C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
