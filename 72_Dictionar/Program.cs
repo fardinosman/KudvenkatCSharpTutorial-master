@@ -21,7 +21,7 @@ namespace _72_Dictionar
             c2.Salary = 5099;
 
             Customer c3 = new Customer();
-            c3.ID = 3;
+            c3.ID = 101;
             c3.Name = "Ola";
             c3.Salary = 5099;
 
@@ -37,13 +37,13 @@ namespace _72_Dictionar
 
             Customer customer1 = dictionarCustomer[1];
 
-            Console.WriteLine("ID = {0}, Name = {1}, Salary = {1}",customer1.ID,customer1.Name,customer1.Salary );
+            Console.WriteLine("ID = {0}, Name = {1}, Salary = {1}", customer1.ID, customer1.Name, customer1.Salary);
 
-            foreach (KeyValuePair<int,Customer> keyValuePair in dictionarCustomer)
+            foreach (KeyValuePair<int, Customer> keyValuePair in dictionarCustomer)
             {
-                Console.WriteLine( "ID = {0} ", keyValuePair.Key);
+                Console.WriteLine("ID = {0} ", keyValuePair.Key);
                 Customer cust = keyValuePair.Value;
-                Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}",cust.ID,cust.Name,cust.Salary);
+                Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}", cust.ID, cust.Name, cust.Salary);
                 Console.WriteLine("---------------------------------------------------------");
 
 
@@ -58,10 +58,47 @@ namespace _72_Dictionar
             {
 
 
-                Console.WriteLine("ID = {0}, Name {1} , Salary {2}", keyValuePair.ID,keyValuePair.Name,keyValuePair.Salary);
+                Console.WriteLine("ID = {0}, Name {1} , Salary {2}", keyValuePair.ID, keyValuePair.Name, keyValuePair.Salary);
             }
+            Customer cus;
 
+            if (dictionarCustomer.TryGetValue(101, out cus))
+            {
+                Console.WriteLine("id {0} name {1} salary {2}", cus.ID, cus.Name, cus.Salary);
+            }
+            else
+            {
+                Console.WriteLine("The key not found");
+            }
+            //this method return boolean
 
+            Console.WriteLine("Total items equals {0}", dictionarCustomer.Count(kvp => kvp.Key > 0));// count 
+
+            dictionarCustomer.Remove(101);// Remove 
+
+            dictionarCustomer.Clear(); //clear
+
+            Customer[] custArry = new Customer[3]; //convert from array to dictionary and from list to dictionary
+            custArry[0] = c1;
+            custArry[1] = c2;
+            custArry[2] = c3;
+
+            List<Customer> c = new List<Customer>();
+            c.Add(c1);
+            c.Add(c2);
+            c.Add(c2);
+
+            Console.WriteLine("----");
+           Dictionary<int,Customer> dicCust = custArry.ToDictionary(cust => cust.ID, cust => cust);
+
+            foreach (KeyValuePair<int,Customer> kvp in dicCust)
+            {
+                Console.WriteLine(kvp.Key+ " " + kvp.Value);
+                Customer c = kvp.Value;
+                Console.WriteLine(c.ID + " " + c.Name + " " + c.Salary);
+             }
+
+           
         }
     }
     public class Customer
