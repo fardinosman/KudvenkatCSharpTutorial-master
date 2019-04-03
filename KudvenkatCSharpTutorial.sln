@@ -157,6 +157,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "77_Sort_a_List_of_Simple_Ty
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "80_some_meth_usefull_of_list_colltion_Class", "80_some_meth_usefull_of_list_colltion_Class\80_some_meth_usefull_of_list_colltion_Class.csproj", "{E2FB1588-F627-4343-9735-054593A6D008}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "81_When_To_using_dictonary_over_list", "81_When_To_using_dictonary_over_list\81_When_To_using_dictonary_over_list.csproj", "{946317C0-9522-47BA-9147-EEADD098A956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationDemo", "WebApplicationDemo\WebApplicationDemo.csproj", "{D26B1BEB-E9CF-4A87-B4AB-D9841DFDD829}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -471,6 +475,14 @@ Global
 		{E2FB1588-F627-4343-9735-054593A6D008}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2FB1588-F627-4343-9735-054593A6D008}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2FB1588-F627-4343-9735-054593A6D008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946317C0-9522-47BA-9147-EEADD098A956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946317C0-9522-47BA-9147-EEADD098A956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946317C0-9522-47BA-9147-EEADD098A956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946317C0-9522-47BA-9147-EEADD098A956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D26B1BEB-E9CF-4A87-B4AB-D9841DFDD829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26B1BEB-E9CF-4A87-B4AB-D9841DFDD829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26B1BEB-E9CF-4A87-B4AB-D9841DFDD829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26B1BEB-E9CF-4A87-B4AB-D9841DFDD829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
