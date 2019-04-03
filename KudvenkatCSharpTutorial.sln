@@ -153,6 +153,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "75_List_Collection", "75_Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "76_Generic_List_Class", "76_Generic_List_Class\76_Generic_List_Class.csproj", "{3CD36A2A-982E-4B0E-9279-95B7DEA28F91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "77_Sort_a_List_of_Simple_Types", "77_Sort_a_List_of_Simple_Types\77_Sort_a_List_of_Simple_Types.csproj", "{B8B96B34-6C0E-45FF-A631-423DD4DCB339}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -459,6 +461,10 @@ Global
 		{3CD36A2A-982E-4B0E-9279-95B7DEA28F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CD36A2A-982E-4B0E-9279-95B7DEA28F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CD36A2A-982E-4B0E-9279-95B7DEA28F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B96B34-6C0E-45FF-A631-423DD4DCB339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B96B34-6C0E-45FF-A631-423DD4DCB339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B96B34-6C0E-45FF-A631-423DD4DCB339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B96B34-6C0E-45FF-A631-423DD4DCB339}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
