@@ -161,6 +161,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "81_When_To_using_dictonary_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationDemo", "WebApplicationDemo\WebApplicationDemo.csproj", "{D26B1BEB-E9CF-4A87-B4AB-D9841DFDD829}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82_Generic_Queue_collection", "82_Generic_Queue_collection\82_Generic_Queue_collection.csproj", "{9DC5EDB4-7B12-4AD0-B456-8F26F2BF7C21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +485,10 @@ Global
 		{D26B1BEB-E9CF-4A87-B4AB-D9841DFDD829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D26B1BEB-E9CF-4A87-B4AB-D9841DFDD829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D26B1BEB-E9CF-4A87-B4AB-D9841DFDD829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC5EDB4-7B12-4AD0-B456-8F26F2BF7C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC5EDB4-7B12-4AD0-B456-8F26F2BF7C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC5EDB4-7B12-4AD0-B456-8F26F2BF7C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC5EDB4-7B12-4AD0-B456-8F26F2BF7C21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
