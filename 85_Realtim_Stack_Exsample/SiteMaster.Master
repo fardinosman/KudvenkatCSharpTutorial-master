@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="_85_Realtim_Stack_Exsample.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table style=" border:1px solid black; width:500px; font-family:Arial">
+
+            <tr>
+                <td colspan="2"> <asp:Label ID="lblMessage" runat="server" ForeColor="Red"></asp:Label></td>
+            </tr>
+            <tr>
+                <td style="width:100px">
+                   <table>>
+                       <tr>
+                           <td><b>Links</b></td>
+                       </tr>
+                        <tr>
+                           <td><a href="http://localhost:4977/WebForm1.aspx/WebForm1.aspx"></a>WebForm1</td>
+                       </tr>
+                        <tr>
+                          <td><a href="http://localhost:4977/WebForm1.aspx/WebForm2.aspx"></a>WebForm2</td>
+                       </tr>
+                        <tr>
+                      <td><a href="http://localhost:4977/WebForm1.aspx/WebForm3.aspx"></a>WebForm3</td>
+                       </tr>
+                        <tr>
+                            <td><a href="http://localhost:4977/WebForm1.aspx/WebForm4.aspx"></a>WebForm4</td>
+                       </tr>
+                      
+                   </table>
+                </td>
+            </tr>
+             <tr>
+                           <td>
+                               <asp:Button ID="btnBack" runat="server" Text="Back" OnClick="btnBack_Click" />
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                           </td>
+                            
+                       </tr>
+        </table>
+       
+        
+    </form>
+</body>
+</html>
